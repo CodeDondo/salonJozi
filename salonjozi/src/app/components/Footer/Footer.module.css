@@ -1,0 +1,167 @@
+.footer {
+  background: linear-gradient(135deg, #2c1810 0%, #4a2c1f 100%);
+  color: #f5f1e8;
+  padding: 60px 0 0;
+  margin-top: auto;
+}
+
+.footerContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.footerSection h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #d4a574;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.logoSection {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footerLogo {
+  width: auto;
+  height: auto;
+  max-width: 150px;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #d4c4a8;
+}
+
+.contactList,
+.hoursList,
+.legalList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contactList li {
+  margin-bottom: 15px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.contactList a {
+  color: #d4a574;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contactList a:hover {
+  color: #e8dcc4;
+  text-decoration: underline;
+}
+
+.hoursList li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(212, 165, 116, 0.2);
+}
+
+.hoursList li span:first-child {
+  font-weight: 600;
+}
+
+.legalList li {
+  margin-bottom: 12px;
+}
+
+.legalList a {
+  color: #f5f1e8;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.legalList a:hover {
+  color: #d4a574;
+  transform: translateX(5px);
+}
+
+/* Google Maps Section */
+.mapSection {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem 40px;
+}
+
+.mapSection h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #d4a574;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.mapContainer {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.mapContainer iframe {
+  display: block;
+}
+
+.mapNote {
+  font-size: 12px;
+  color: #d4c4a8;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* Copyright */
+.copyright {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 20px 0;
+  text-align: center;
+  border-top: 1px solid rgba(212, 165, 116, 0.2);
+}
+
+.copyright p {
+  margin: 0;
+  font-size: 14px;
+  color: #d4c4a8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer {
+    padding: 40px 0 0;
+  }
+
+  .footerContainer {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 0 1.5rem;
+  }
+
+  .mapSection {
+    padding: 0 1.5rem 30px;
+  }
+
+  .hoursList li {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
