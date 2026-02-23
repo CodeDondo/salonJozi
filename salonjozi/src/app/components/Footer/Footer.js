@@ -16,10 +16,24 @@ export default function Footer() {
                             height={50}
                             className={styles.footerLogo}
                         />
-                        <p className={styles.description}>
-                            Din professionelle skønhedssalon i hjertet af byen. Vi tilbyder kvalitetsbehandlinger med fokus på dit velvære.
-                        </p>
+                        <a 
+                            href="https://www.mortenrwinther.dk" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className={styles.logoLink}
+                        >
+                            <Image
+                                src="/MRW.png"
+                                alt="MRW Logo"
+                                width={80}
+                                height={40}
+                                className={styles.mrwLogo}
+                            />
+                        </a>
                     </div>
+                    <p className={styles.description}>
+                        Din professionelle skønhedssalon i hjertet af byen. Vi tilbyder kvalitetsbehandlinger med fokus på dit velvære.
+                    </p>
                 </div>
 
                 {/* Kontaktinformation */}
@@ -82,7 +96,6 @@ export default function Footer() {
                         referrerPolicy="no-referrer-when-downgrade"
                         title="Salon Jozi lokation"
                     ></iframe>
-                    <p className={styles.mapNote}>* Opdater iframe src med din faktiske Google Maps embed URL</p>
                 </div>
             </div>
 

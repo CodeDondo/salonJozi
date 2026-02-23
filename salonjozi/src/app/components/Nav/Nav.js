@@ -32,10 +32,10 @@ export default function Nav() {
 
   const navLinks = [
     { href: '/', label: 'Forside' },
-    { href: '/priser', label: 'Priser' },
-    { href: '/om-os', label: 'Om Os' },
     { href: '/portfolio', label: 'Portfolio' },
+    { href: '/priser', label: 'Priser' },
     { href: '/book', label: 'Book' },
+    { href: '/om-os', label: 'Om Os' },
     { href: '/kontakt', label: 'Kontakt' },
   ];
 

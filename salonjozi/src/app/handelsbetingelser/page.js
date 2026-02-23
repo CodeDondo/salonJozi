@@ -4,8 +4,8 @@ export default function Handelsbetingelser() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <article style={{ maxWidth: '900px', padding: '2rem', textAlign: 'left' }}>
-          <h1 style={{ marginBottom: '1rem', fontSize: '36px' }}>Handelsbetingelser</h1>
+        <article style={{ maxWidth: '900px', padding: '2rem', textAlign: 'left', color: '#2c2416' }}>
+          <h1 style={{ marginBottom: '1rem', fontSize: '36px', color: '#2c2416' }}>Handelsbetingelser</h1>
           <p style={{ marginBottom: '2rem', color: '#5a4a35' }}>Sidst opdateret: {new Date().toLocaleDateString('da-DK')}</p>
 
           <section style={{ marginBottom: '2rem' }}>

@@ -26,20 +26,45 @@
 
 .logoSection {
   display: flex;
-  flex-direction: column;
-  gap: 15px;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .footerLogo {
   width: auto;
   height: auto;
-  max-width: 150px;
+  max-width: 120px;
+  flex-shrink: 0;
+}
+
+.mrwLogo {
+  width: auto;
+  height: auto;
+  max-width: 100px;
+  flex-shrink: 0;
+}
+
+.logoLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.logoLink:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
 }
 
 .description {
   font-size: 14px;
   line-height: 1.6;
   color: #d4c4a8;
+  width: 100%;
+  margin-top: 10px;
 }
 
 .contactList,
@@ -156,6 +181,19 @@
     padding: 0 1.5rem;
   }
 
+  .logoSection {
+    flex-wrap: nowrap;
+    gap: 15px;
+  }
+
+  .footerLogo {
+    max-width: 100px;
+  }
+
+  .mrwLogo {
+    max-width: 80px;
+  }
+
   .mapSection {
     padding: 0 1.5rem 30px;
   }
@@ -163,5 +201,21 @@
   .hoursList li {
     flex-direction: column;
     gap: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logoSection {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .footerLogo {
+    max-width: 90px;
+  }
+
+  .mrwLogo {
+    max-width: 70px;
   }
 }

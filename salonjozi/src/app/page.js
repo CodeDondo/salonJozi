@@ -11,7 +11,7 @@ export default function Home() {
           </video>
           <div className={styles.heroOverlay}></div>
           <div className={styles.heroContent}>
-            <h1>Velkommen til SalonJozi</h1>
+            <h1>Velkommen til Salon Jozi</h1>
             <p>Din professionelle skønhedssalon</p>
             <button className={styles.bookButton}>Book en Tid</button>
           </div>

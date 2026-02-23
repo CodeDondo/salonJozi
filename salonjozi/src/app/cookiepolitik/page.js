@@ -4,8 +4,8 @@ export default function Cookiepolitik() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <article style={{ maxWidth: '900px', padding: '2rem', textAlign: 'left' }}>
-          <h1 style={{ marginBottom: '1rem', fontSize: '36px' }}>Cookiepolitik</h1>
+        <article style={{ maxWidth: '900px', padding: '2rem', textAlign: 'left', color: '#2c2416' }}>
+          <h1 style={{ marginBottom: '1rem', fontSize: '36px', color: '#2c2416' }}>Cookiepolitik</h1>
           <p style={{ marginBottom: '2rem', color: '#5a4a35' }}>Sidst opdateret: {new Date().toLocaleDateString('da-DK')}</p>
 
           <section style={{ marginBottom: '2rem' }}>
@@ -126,7 +126,7 @@ export default function Cookiepolitik() {
               til at blokere cookies eller til at advare dig, når en cookie sendes til din enhed.
             </p>
             
-            <h3 style={{ fontSize: '18px', marginBottom: '0.5rem', marginTop: '1rem' }}>Sådan blokerer du cookies i din browser:</h3>
+            <h3 style={{ fontSize: '18px', marginBottom: '0.5rem', marginTop: '1rem', color: '#2c2416' }}>Sådan blokerer du cookies i din browser:</h3>
             <ul style={{ lineHeight: '1.8', marginBottom: '1rem', paddingLeft: '2rem' }}>
               <li><strong>Google Chrome:</strong> Indstillinger → Privatlivs- og sikkerhed → Cookies og andre webstedsdata</li>
               <li><strong>Firefox:</strong> Indstillinger → Privatlivs- og sikkerhed → Cookies og webstedsdata</li>
