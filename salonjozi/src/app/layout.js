@@ -1,17 +1,12 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import Nav from "./components/Nav/Nav";
 import Footer from "./components/Footer/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import CookieBanner from "./components/CookieBanner/CookieBanner";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
@@ -35,7 +30,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="da">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={inter.variable}>
         <ScrollToTop />
         <Nav />
         {children}
