@@ -152,7 +152,7 @@ export default function Cookiepolitik() {
             </p>
             <p style={{ lineHeight: '1.8', marginBottom: '0.5rem' }}><strong>Salon Jozi</strong></p>
             <p style={{ lineHeight: '1.8', marginBottom: '0.5rem' }}>Email: info@salonjozi.dk</p>
-            <p style={{ lineHeight: '1.8', marginBottom: '0.5rem' }}>Telefon: +45 12 34 56 78</p>
+            <p style={{ lineHeight: '1.8', marginBottom: '0.5rem' }}>Telefon: +45 25 62 20 30</p>
           </section>
         </article>
       </main>

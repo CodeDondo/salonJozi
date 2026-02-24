@@ -80,6 +80,8 @@
 }
 
 .bookButton {
+  display: inline-block;
+  text-decoration: none;
   background: #d4a574;
   color: #ffffff;
   border: none;
@@ -154,6 +156,103 @@
   color: var(--text-secondary);
 }
 
+/* Contact Section */
+.contactSection {
+  width: 100%;
+  padding: 100px 2rem;
+  background: linear-gradient(135deg, #f5f0e8 0%, #e8dcc8 100%);
+  position: relative;
+}
+
+.contactSection::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #d4a574, #c29563, #d4a574);
+}
+
+.contactContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.contactText {
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contactText:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15);
+}
+
+.contactText h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+  letter-spacing: -1px;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.contactText h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #d4a574, #c29563);
+  border-radius: 2px;
+}
+
+.contactText p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+  transition: color 0.3s ease;
+}
+
+.contactText p:first-of-type {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-bottom: 2rem;
+}
+
+.contactText p:nth-child(3),
+.contactText p:nth-child(4) {
+  font-weight: 600;
+  color: #d4a574;
+  font-size: 19px;
+  padding: 0.5rem 0;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.contactText p:nth-child(3):hover,
+.contactText p:nth-child(4):hover {
+  color: #c29563;
+  transform: translateX(5px);
+}
+
+.contactText .bookButton {
+  margin-top: 2rem;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .heroSection {
@@ -197,10 +296,95 @@
   .servicesText p {
     font-size: 16px;
   }
+
+  .contactSection {
+    padding: 60px 1.5rem;
+  }
+
+  .contactContent {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .contactText {
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .contactText h2 {
+    font-size: 32px;
+  }
+
+  .contactText h2::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .contactText p {
+    font-size: 16px;
+  }
+
+  .contactText p:first-of-type {
+    font-size: 18px;
+  }
+
+  .contactText p:nth-child(3),
+  .contactText p:nth-child(4) {
+    font-size: 17px;
+  }
+
+  .contactText p:nth-child(3):hover,
+  .contactText p:nth-child(4):hover {
+    transform: translateX(0);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
   .logo {
     filter: invert();
+  }
+}
+
+/* Page Intro Sections */
+.intro {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  max-width: 900px;
+  margin: 3rem auto;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #d4a574;
+}
+
+.intro h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  letter-spacing: -1px;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .intro {
+    padding: 2rem 1.5rem;
+    margin: 2rem 1rem;
+  }
+
+  .intro h1 {
+    font-size: 2rem;
+  }
+
+  .intro p {
+    font-size: 1rem;
   }
 }

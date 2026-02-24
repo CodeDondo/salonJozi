@@ -11,8 +11,9 @@ export default function Handelsbetingelser() {
           <section style={{ marginBottom: '2rem' }}>
             <h2 style={{ fontSize: '24px', marginBottom: '1rem' }}>1. Generelt</h2>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
-              Disse handelsbetingelser gælder for alle ydelser leveret af Salon Jozi, CVR-nr. [indsæt CVR-nummer], 
-              beliggende på [indsæt adresse] ("Salonen", "vi", "os").
+              Disse handelsbetingelser gælder for alle ydelser leveret af Salon Jozi, CVR-nr. 45650715,
+              beliggende på Lindholmsvej 67,
+              9400 Nørresundby ("Salonen", "vi", "os").
             </p>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
               Ved booking af en tid hos os accepterer du disse handelsbetingelser.
@@ -25,7 +26,7 @@ export default function Handelsbetingelser() {
               Booking kan ske via telefon, email, vores hjemmeside eller personligt i salonen.
             </p>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
-              Ved booking modtager du en bekræftelse via SMS eller email. Først når du har modtaget bekræftelsen, 
+              Ved booking modtager du en bekræftelse via SMS eller email. Først når du har modtaget bekræftelsen,
               er din booking gyldig.
             </p>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
@@ -39,11 +40,11 @@ export default function Handelsbetingelser() {
               Alle priser er angivet i danske kroner (DKK) inklusiv moms.
             </p>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
-              Vi forbeholder os retten til at ændre priser uden varsel. Den pris, der gælder på bookingstidspunktet, 
+              Vi forbeholder os retten til at ændre priser uden varsel. Den pris, der gælder på bookingstidspunktet,
               er den pris du betaler.
             </p>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
-              Hvis behandlingen tager længere tid end estimeret, eller du ønsker ekstra services, 
+              Hvis behandlingen tager længere tid end estimeret, eller du ønsker ekstra services,
               kan prisen blive højere end oprindeligt oplyst.
             </p>
           </section>
@@ -73,7 +74,7 @@ export default function Handelsbetingelser() {
               Afbestilling kan ske via telefon eller email.
             </p>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
-              Ved afbestilling senere end 24 timer før aftalt tid, eller ved udeblivelse uden afbud, 
+              Ved afbestilling senere end 24 timer før aftalt tid, eller ved udeblivelse uden afbud,
               forbeholder vi os retten til at opkræve 50% af behandlingens pris som afbestillingsgebyr.
             </p>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
@@ -84,11 +85,11 @@ export default function Handelsbetingelser() {
           <section style={{ marginBottom: '2rem' }}>
             <h2 style={{ fontSize: '24px', marginBottom: '1rem' }}>6. Forsinkelse</h2>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
-              Hvis du kommer for sent til din aftale, kan vi muligvis ikke levere den fulde behandling, 
+              Hvis du kommer for sent til din aftale, kan vi muligvis ikke levere den fulde behandling,
               da vi har andre kunder efter dig.
             </p>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
-              Du vil stadig blive opkrævet den fulde pris for behandlingen, også selvom behandlingen forkortes 
+              Du vil stadig blive opkrævet den fulde pris for behandlingen, også selvom behandlingen forkortes
               på grund af forsinkelse.
             </p>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
@@ -141,11 +142,11 @@ export default function Handelsbetingelser() {
               Vi udfører alle behandlinger efter bedste evne og med professionel omhu.
             </p>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
-              Salon Jozi kan ikke holdes ansvarlig for allergiske reaktioner eller andre bivirkninger, 
+              Salon Jozi kan ikke holdes ansvarlig for allergiske reaktioner eller andre bivirkninger,
               medmindre disse skyldes grov uagtsomhed fra vores side.
             </p>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
-              Det er kundens ansvar at informere om allergier, sygdomme eller medicin, 
+              Det er kundens ansvar at informere om allergier, sygdomme eller medicin,
               der kan påvirke behandlingen.
             </p>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
@@ -156,7 +157,7 @@ export default function Handelsbetingelser() {
           <section style={{ marginBottom: '2rem' }}>
             <h2 style={{ fontSize: '24px', marginBottom: '1rem' }}>11. Reklamation</h2>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
-              Hvis du ikke er tilfreds med en behandling, skal du kontakte os hurtigst muligt 
+              Hvis du ikke er tilfreds med en behandling, skal du kontakte os hurtigst muligt
               og senest inden 7 dage efter behandlingen.
             </p>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
@@ -195,7 +196,7 @@ export default function Handelsbetingelser() {
             <h2 style={{ fontSize: '24px', marginBottom: '1rem' }}>15. Kontakt</h2>
             <p style={{ lineHeight: '1.8', marginBottom: '0.5rem' }}><strong>Salon Jozi</strong></p>
             <p style={{ lineHeight: '1.8', marginBottom: '0.5rem' }}>Email: info@salonjozi.dk</p>
-            <p style={{ lineHeight: '1.8', marginBottom: '0.5rem' }}>Telefon: +45 12 34 56 78</p>
+            <p style={{ lineHeight: '1.8', marginBottom: '0.5rem' }}>Telefon: +45 25 62 20 30</p>
           </section>
         </article>
       </main>

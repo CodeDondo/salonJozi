@@ -11,8 +11,8 @@ export default function Privatlivspolitik() {
           <section style={{ marginBottom: '2rem' }}>
             <h2 style={{ fontSize: '24px', marginBottom: '1rem' }}>1. Indledning</h2>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
-              Salon Jozi ("vi", "os", "vores") respekterer dit privatliv og er forpligtet til at beskytte dine personoplysninger. 
-              Denne privatlivspolitik informerer dig om, hvordan vi behandler dine personoplysninger, når du besøger vores hjemmeside 
+              Salon Jozi ("vi", "os", "vores") respekterer dit privatliv og er forpligtet til at beskytte dine personoplysninger.
+              Denne privatlivspolitik informerer dig om, hvordan vi behandler dine personoplysninger, når du besøger vores hjemmeside
               eller bruger vores tjenester, samt dine rettigheder i henhold til persondataforordningen (GDPR).
             </p>
           </section>
@@ -20,10 +20,11 @@ export default function Privatlivspolitik() {
           <section style={{ marginBottom: '2rem' }}>
             <h2 style={{ fontSize: '24px', marginBottom: '1rem' }}>2. Dataansvarlig</h2>
             <p style={{ lineHeight: '1.8', marginBottom: '0.5rem' }}><strong>Salon Jozi</strong></p>
-            <p style={{ lineHeight: '1.8', marginBottom: '0.5rem' }}>CVR-nr.: [Indsæt CVR-nummer]</p>
-            <p style={{ lineHeight: '1.8', marginBottom: '0.5rem' }}>Adresse: [Indsæt adresse]</p>
+            <p style={{ lineHeight: '1.8', marginBottom: '0.5rem' }}>CVR-nr.: 45650715</p>
+            <p style={{ lineHeight: '1.8', marginBottom: '0.5rem' }}>Adresse: Lindholmsvej 67,
+              9400 Nørresundby</p>
             <p style={{ lineHeight: '1.8', marginBottom: '0.5rem' }}>Email: info@salonjozi.dk</p>
-            <p style={{ lineHeight: '1.8', marginBottom: '0.5rem' }}>Telefon: +45 12 34 56 78</p>
+            <p style={{ lineHeight: '1.8', marginBottom: '0.5rem' }}>Telefon: +45 25 62 20 30</p>
           </section>
 
           <section style={{ marginBottom: '2rem' }}>
@@ -106,7 +107,7 @@ export default function Privatlivspolitik() {
           <section style={{ marginBottom: '2rem' }}>
             <h2 style={{ fontSize: '24px', marginBottom: '1rem' }}>9. Sikkerhed</h2>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
-              Vi har implementeret passende tekniske og organisatoriske sikkerhedsforanstaltninger for at beskytte 
+              Vi har implementeret passende tekniske og organisatoriske sikkerhedsforanstaltninger for at beskytte
               dine personoplysninger mod uautoriseret adgang, tab eller ødelæggelse.
             </p>
           </section>
@@ -125,7 +126,7 @@ export default function Privatlivspolitik() {
           <section style={{ marginBottom: '2rem' }}>
             <h2 style={{ fontSize: '24px', marginBottom: '1rem' }}>11. Ændringer til denne politik</h2>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
-              Vi kan opdatere denne privatlivspolitik fra tid til anden. Ændringer vil blive offentliggjort på denne side 
+              Vi kan opdatere denne privatlivspolitik fra tid til anden. Ændringer vil blive offentliggjort på denne side
               med en opdateret dato.
             </p>
           </section>

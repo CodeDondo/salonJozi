@@ -1,0 +1,302 @@
+.portfolioPage {
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  background: linear-gradient(135deg, #f5f0e8 0%, #e8dcc8 100%);
+  background-attachment: fixed;
+}
+
+.portfolioHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 3rem 1rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolioHeader h1 {
+  font-size: 3rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.portfolioHeader p {
+  font-size: 1.3rem;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.emptyState {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: white;
+  border-radius: 12px;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.emptyState p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.errorState {
+  background: white;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.errorState h3 {
+  color: #e74c3c;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.errorState p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.instructions {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.instructions h4 {
+  color: #2c3e50;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.instructions ol {
+  margin-left: 1.5rem;
+  line-height: 1.8;
+}
+
+.instructions ol li {
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.instructions ul {
+  margin: 0.5rem 0 0 1.5rem;
+}
+
+.instructions ul li {
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.instructions a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.instructions a:hover {
+  text-decoration: underline;
+}
+
+.instructions strong {
+  color: #2c3e50;
+  font-weight: 700;
+}
+
+.portfolioGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.portfolioItem {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolioItem:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.galleryWrapper {
+  display: none;
+}
+
+.galleryWrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.galleryWrapper::-webkit-scrollbar-track {
+  display: none;
+}
+
+.galleryWrapper::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+.galleryWrapper::-webkit-scrollbar-thumb:hover {
+  display: none;
+}
+
+.imageGallery {
+  display: none;
+}
+
+.imageGallery .imageWrapper {
+  display: none;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  background: #f0f0f0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageWrapper:hover {
+  background: #e8e8e8;
+}
+
+.portfolioImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: opacity 0.5s ease-in-out, transform 0.3s ease;
+  opacity: 1;
+}
+
+.imagePlaceholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.imageCounter {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  backdrop-filter: blur(4px);
+}
+
+.portfolioItem:hover .portfolioImage {
+  transform: scale(1.02);
+}
+
+.portfolioContent {
+  padding: 1.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolioContent h3 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.portfolioContent p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Responsiv design */
+@media (max-width: 1024px) {
+  .portfolioGrid {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolioPage {
+    padding: 1rem 0.5rem;
+  }
+
+  .portfolioHeader {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .portfolioHeader h1 {
+    font-size: 2.2rem;
+  }
+
+  .portfolioHeader p {
+    font-size: 1.1rem;
+  }
+
+  .portfolioGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .imageWrapper {
+    height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .portfolioHeader h1 {
+    font-size: 1.8rem;
+  }
+
+  .portfolioHeader p {
+    font-size: 1rem;
+  }
+
+  .portfolioContent h3 {
+    font-size: 1.3rem;
+  }
+
+  .portfolioContent p {
+    font-size: 0.95rem;
+  }
+
+  .imageWrapper {
+    height: 220px;
+  }
+}

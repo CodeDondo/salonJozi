@@ -63,9 +63,8 @@ export default function Footer() {
                 <div className={styles.footerSection}>
                     <h3>Åbningstider</h3>
                     <ul className={styles.hoursList}>
-                        <li><span>Mandag:</span> <span>Lukket</span></li>
-                        <li><span>Tirsdag - Fredag:</span> <span>10:00 - 18:00</span></li>
-                        <li><span>Lørdag:</span> <span>09:00 - 15:00</span></li>
+                        <li><span>Mandag - Fredag:</span> <span>10:00 - 17:00</span></li>
+                        <li><span>Lørdag:</span> <span>10:00 - 15:00</span></li>
                         <li><span>Søndag:</span> <span>Lukket</span></li>
                     </ul>
                 </div>

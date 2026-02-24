@@ -11,11 +11,11 @@ export default function GDPR() {
           <section style={{ marginBottom: '2rem' }}>
             <h2 style={{ fontSize: '24px', marginBottom: '1rem' }}>1. Introduktion til GDPR</h2>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
-              GDPR (General Data Protection Regulation) eller på dansk "Databeskyttelsesforordningen" 
+              GDPR (General Data Protection Regulation) eller på dansk "Databeskyttelsesforordningen"
               er en EU-forordning, der beskytter borgernes persondata.
             </p>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
-              Salon Jozi er forpligtet til at overholde GDPR's krav og sikre, at dine personoplysninger 
+              Salon Jozi er forpligtet til at overholde GDPR's krav og sikre, at dine personoplysninger
               behandles sikkert og lovligt.
             </p>
           </section>
@@ -26,10 +26,12 @@ export default function GDPR() {
               Salon Jozi er dataansvarlig for behandlingen af dine personoplysninger:
             </p>
             <p style={{ lineHeight: '1.8', marginBottom: '0.5rem' }}><strong>Navn:</strong> Salon Jozi</p>
-            <p style={{ lineHeight: '1.8', marginBottom: '0.5rem' }}><strong>CVR-nr.:</strong> [Indsæt CVR-nummer]</p>
-            <p style={{ lineHeight: '1.8', marginBottom: '0.5rem' }}><strong>Adresse:</strong> [Indsæt adresse]</p>
+            <p style={{ lineHeight: '1.8', marginBottom: '0.5rem' }}><strong>CVR-nr.:</strong> 45650715</p>
+            <p style={{ lineHeight: '1.8', marginBottom: '0.5rem' }}><strong>Adresse:</strong> Lindholmsvej 67,
+              9400 Nørresundby
+            </p>
             <p style={{ lineHeight: '1.8', marginBottom: '0.5rem' }}><strong>Email:</strong> info@salonjozi.dk</p>
-            <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}><strong>Telefon:</strong> +45 12 34 56 78</p>
+            <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}><strong>Telefon:</strong> +45 25 62 20 30</p>
           </section>
 
           <section style={{ marginBottom: '2rem' }}>
@@ -40,7 +42,7 @@ export default function GDPR() {
 
             <h3 style={{ fontSize: '18px', marginBottom: '0.5rem', marginTop: '1.5rem' }}>3.1 Retten til indsigt (Artikel 15)</h3>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
-              Du har ret til at få bekræftet, om vi behandler personoplysninger om dig, og i givet fald 
+              Du har ret til at få bekræftet, om vi behandler personoplysninger om dig, og i givet fald
               modtage en kopi af disse oplysninger samt information om behandlingen.
             </p>
 
@@ -61,37 +63,37 @@ export default function GDPR() {
               <li>Sletning er påkrævet i henhold til lovgivning</li>
             </ul>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
-              <strong>Bemærk:</strong> Vi kan være forpligtet til at opbevare visse oplysninger efter bogføringsloven 
+              <strong>Bemærk:</strong> Vi kan være forpligtet til at opbevare visse oplysninger efter bogføringsloven
               (5 år), selvom du anmoder om sletning.
             </p>
 
             <h3 style={{ fontSize: '18px', marginBottom: '0.5rem', marginTop: '1.5rem' }}>3.4 Retten til begrænsning af behandling (Artikel 18)</h3>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
-              Du har ret til at få behandlingen af dine personoplysninger begrænset i visse situationer, 
+              Du har ret til at få behandlingen af dine personoplysninger begrænset i visse situationer,
               f.eks. hvis du bestrider rigtigheden af oplysningerne.
             </p>
 
             <h3 style={{ fontSize: '18px', marginBottom: '0.5rem', marginTop: '1.5rem' }}>3.5 Retten til dataportabilitet (Artikel 20)</h3>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
-              Du har ret til at modtage dine personoplysninger i et struktureret, almindeligt anvendt 
+              Du har ret til at modtage dine personoplysninger i et struktureret, almindeligt anvendt
               og maskinlæsbart format og få dem overført til en anden dataansvarlig.
             </p>
 
             <h3 style={{ fontSize: '18px', marginBottom: '0.5rem', marginTop: '1.5rem' }}>3.6 Retten til indsigelse (Artikel 21)</h3>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
-              Du har til enhver tid ret til at gøre indsigelse mod behandling af dine personoplysninger, 
+              Du har til enhver tid ret til at gøre indsigelse mod behandling af dine personoplysninger,
               der sker på grundlag af en legitim interesse.
             </p>
 
             <h3 style={{ fontSize: '18px', marginBottom: '0.5rem', marginTop: '1.5rem' }}>3.7 Ret til ikke at være genstand for automatiske individuelle afgørelser</h3>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
-              Du har ret til ikke at være genstand for afgørelser, der udelukkende er baseret på automatisk behandling, 
+              Du har ret til ikke at være genstand for afgørelser, der udelukkende er baseret på automatisk behandling,
               herunder profilering.
             </p>
 
             <h3 style={{ fontSize: '18px', marginBottom: '0.5rem', marginTop: '1.5rem' }}>3.8 Ret til at trække samtykke tilbage</h3>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
-              Hvis behandling er baseret på dit samtykke, har du ret til at trække dette samtykke tilbage når som helst. 
+              Hvis behandling er baseret på dit samtykke, har du ret til at trække dette samtykke tilbage når som helst.
               Dette påvirker ikke lovligheden af behandling foretaget inden tilbagetrækningen.
             </p>
           </section>
@@ -103,10 +105,11 @@ export default function GDPR() {
             </p>
             <ul style={{ lineHeight: '1.8', marginBottom: '1rem', paddingLeft: '2rem' }}>
               <li><strong>Email:</strong> info@salonjozi.dk</li>
-              <li><strong>Post:</strong> Salon Jozi, [Adresse], [Postnummer] [By]</li>
+              <li><strong>Post:</strong> Salon Jozi, Lindholmsvej 67,
+                9400 Nørresundby</li>
             </ul>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
-              Vi vil besvare din henvendelse inden for 1 måned. I særligt komplicerede tilfælde kan fristen 
+              Vi vil besvare din henvendelse inden for 1 måned. I særligt komplicerede tilfælde kan fristen
               forlænges med op til 2 måneder, hvilket vi vil informere dig om.
             </p>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
@@ -117,7 +120,7 @@ export default function GDPR() {
           <section style={{ marginBottom: '2rem' }}>
             <h2 style={{ fontSize: '24px', marginBottom: '1rem' }}>5. Databrud</h2>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
-              Skulle vi opleve et databrud, der indebærer høj risiko for dine rettigheder og frihedsrettigheder, 
+              Skulle vi opleve et databrud, der indebærer høj risiko for dine rettigheder og frihedsrettigheder,
               vil vi underrette dig uden unødig forsinkelse.
             </p>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
@@ -128,7 +131,7 @@ export default function GDPR() {
           <section style={{ marginBottom: '2rem' }}>
             <h2 style={{ fontSize: '24px', marginBottom: '1rem' }}>6. Datasikkerhed</h2>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
-              Vi har implementeret passende tekniske og organisatoriske sikkerhedsforanstaltninger for at beskytte 
+              Vi har implementeret passende tekniske og organisatoriske sikkerhedsforanstaltninger for at beskytte
               dine personoplysninger:
             </p>
             <ul style={{ lineHeight: '1.8', marginBottom: '1rem', paddingLeft: '2rem' }}>
@@ -159,7 +162,7 @@ export default function GDPR() {
           <section style={{ marginBottom: '2rem' }}>
             <h2 style={{ fontSize: '24px', marginBottom: '1rem' }}>8. Klage til Datatilsynet</h2>
             <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
-              Hvis du mener, at vi ikke overholder GDPR eller databeskyttelseslovgivningen, har du ret til at 
+              Hvis du mener, at vi ikke overholder GDPR eller databeskyttelseslovgivningen, har du ret til at
               indgive en klage til Datatilsynet:
             </p>
             <p style={{ lineHeight: '1.8', marginBottom: '0.5rem' }}><strong>Datatilsynet</strong></p>
@@ -191,7 +194,7 @@ export default function GDPR() {
             </p>
             <p style={{ lineHeight: '1.8', marginBottom: '0.5rem' }}><strong>Salon Jozi</strong></p>
             <p style={{ lineHeight: '1.8', marginBottom: '0.5rem' }}>Email: info@salonjozi.dk</p>
-            <p style={{ lineHeight: '1.8', marginBottom: '0.5rem' }}>Telefon: +45 12 34 56 78</p>
+            <p style={{ lineHeight: '1.8', marginBottom: '0.5rem' }}>Telefon: +45 25 62 20 30</p>
           </section>
         </article>
       </main>

@@ -1,0 +1,88 @@
+.bookingPage {
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  background: linear-gradient(135deg, #f5f0e8 0%, #e8dcc8 100%);
+  background-attachment: fixed;
+}
+
+.bookingHeader {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 2rem 1rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bookingHeader h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.bookingHeader p {
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.bookingContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.bookingIframe {
+  display: block;
+  border: none;
+  border-radius: 8px;
+  min-height: 1100px;
+}
+
+/* Responsiv design */
+@media (max-width: 768px) {
+  .bookingPage {
+    padding: 1rem 0.5rem;
+  }
+
+  .bookingHeader h1 {
+    font-size: 2rem;
+  }
+
+  .bookingHeader p {
+    font-size: 1rem;
+  }
+
+  .bookingContainer {
+    border-radius: 8px;
+    padding: 0.5rem;
+  }
+
+  .bookingIframe {
+    min-height: 1200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bookingHeader {
+    padding: 1.5rem 1rem;
+  }
+
+  .bookingHeader h1 {
+    font-size: 1.75rem;
+  }
+
+  .bookingIframe {
+    min-height: 1300px;
+  }
+}
