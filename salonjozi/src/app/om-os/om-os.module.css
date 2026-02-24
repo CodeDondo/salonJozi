@@ -1,0 +1,316 @@
+.page {
+  --text-primary: #2c2416;
+  --text-secondary: #5a4a35;
+  --button-primary-hover: #8b7355;
+  --button-secondary-hover: #f2ede3;
+  --button-secondary-border: #d4c4a8;
+
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: var(--font-geist-sans);
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro {
+  text-align: center;
+  padding: 4rem 2rem;
+  width: 100%;
+}
+
+.intro h1 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #332121;
+  margin-bottom: 1rem;
+  letter-spacing: -1px;
+}
+
+.intro p {
+  font-size: 20px;
+  color: #5a4a35;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem 4rem 2rem;
+}
+
+.omOsContainer {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 4rem;
+  border: 1px solid rgba(212, 196, 168, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  margin-bottom: 3rem;
+}
+
+.profileSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.profileImage {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.15);
+  object-fit: cover;
+}
+
+.profileContent h2 {
+  font-size: 44px;
+  font-weight: 700;
+  color: #332121;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.5px;
+}
+
+.profileContent p {
+  font-size: 18px;
+  color: #5a4a35;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+.profileContent p:last-child {
+  margin-bottom: 0;
+}
+
+.highlight {
+  color: #d4a574;
+  font-weight: 700;
+}
+
+.valuesSection {
+  margin-top: 4rem;
+  padding-top: 3rem;
+  border-top: 2px solid rgba(212, 196, 168, 0.3);
+}
+
+.valuesTitle {
+  font-size: 32px;
+  font-weight: 700;
+  color: #332121;
+  text-align: center;
+  margin-bottom: 3rem;
+  letter-spacing: -0.5px;
+}
+
+.valuesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.valueCard {
+  background: linear-gradient(135deg, rgba(212, 165, 116, 0.08) 0%, rgba(212, 165, 116, 0.03) 100%);
+  padding: 2.5rem;
+  border-radius: 12px;
+  border-left: 4px solid #d4a574;
+  transition: all 0.3s ease;
+}
+
+.valueCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(212, 165, 116, 0.15);
+  background: linear-gradient(135deg, rgba(212, 165, 116, 0.12) 0%, rgba(212, 165, 116, 0.06) 100%);
+}
+
+.valueIcon {
+  font-size: 32px;
+  margin-bottom: 1rem;
+}
+
+.valueTitle {
+  font-size: 20px;
+  font-weight: 700;
+  color: #332121;
+  margin-bottom: 0.75rem;
+}
+
+.valueDescription {
+  font-size: 15px;
+  color: #5a4a35;
+  line-height: 1.6;
+}
+
+.storySection {
+  background: linear-gradient(135deg, rgba(212, 165, 116, 0.05) 0%, rgba(212, 165, 116, 0.02) 100%);
+  padding: 3rem;
+  border-radius: 12px;
+  border: 1px solid rgba(212, 196, 168, 0.3);
+  margin-top: 3rem;
+}
+
+.storyTitle {
+  font-size: 28px;
+  font-weight: 700;
+  color: #332121;
+  margin-bottom: 2rem;
+  letter-spacing: -0.5px;
+}
+
+.storyText {
+  font-size: 17px;
+  color: #5a4a35;
+  line-height: 1.9;
+  text-align: justify;
+}
+
+.storyText p {
+  margin-bottom: 1.5rem;
+}
+
+.storyText p:last-child {
+  margin-bottom: 0;
+}
+
+.cta {
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, rgba(212, 165, 116, 0.1) 0%, rgba(212, 165, 116, 0.05) 100%);
+  border-radius: 12px;
+  border: 1px solid rgba(212, 196, 168, 0.3);
+  margin-top: 3rem;
+}
+
+.ctaTekst {
+  font-size: 18px;
+  color: #5a4a35;
+  margin-bottom: 1rem;
+}
+
+.bookButton {
+  display: inline-block;
+  text-decoration: none;
+  background: #d4a574;
+  color: #ffffff;
+  border: none;
+  padding: 14px 40px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(212, 165, 116, 0.3);
+}
+
+.bookButton:hover {
+  background: #c29563;
+  box-shadow: 0 6px 20px rgba(212, 165, 116, 0.4);
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .profileSection {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .omOsContainer {
+    padding: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .intro h1 {
+    font-size: 44px;
+  }
+
+  .intro p {
+    font-size: 16px;
+  }
+
+  .content {
+    padding: 0 1rem 2rem 1rem;
+  }
+
+  .omOsContainer {
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .profileContent h2 {
+    font-size: 32px;
+  }
+
+  .profileContent p {
+    font-size: 16px;
+  }
+
+  .valuesTitle {
+    font-size: 24px;
+  }
+
+  .valuesGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .valueCard {
+    padding: 2rem;
+  }
+
+  .storySection {
+    padding: 2rem;
+  }
+
+  .storyTitle {
+    font-size: 22px;
+  }
+
+  .storyText {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro h1 {
+    font-size: 32px;
+  }
+
+  .profileContent h2 {
+    font-size: 24px;
+  }
+
+  .omOsContainer {
+    padding: 1.5rem;
+  }
+
+  .valuesGrid {
+    gap: 1rem;
+  }
+
+  .valueCard {
+    padding: 1.5rem;
+  }
+
+  .storyText {
+    text-align: left;
+    font-size: 14px;
+  }
+}

@@ -36,7 +36,7 @@ export default function Portfolio() {
     <div className={styles.portfolioPage}>
       <div className={styles.portfolioHeader}>
         <h1>Portfolio</h1>
-        <p>Se vores arbejde og tidligere projekter</p>
+        <p>Se vores arbejde</p>
       </div>
 
       {error ? (
