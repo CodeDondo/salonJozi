@@ -1,3 +1,6 @@
+// Configure for Cloudflare Pages Edge Runtime
+export const runtime = 'edge';
+
 export async function POST(request) {
   try {
     const { navn, email, telefon, emne, besked } = await request.json();
