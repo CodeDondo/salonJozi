@@ -24,7 +24,8 @@ export async function getPortfolioItems() {
     }
     
     console.error('Error fetching portfolio items:', error);
-    return { items: [], error: 'Der opstod en fejl ved hentning af portfolio items.' };
+    // Return the actual error message for debugging
+    return { items: [], error: `Contentful fejl: ${error.message || error.toString()}` };
   }
 }
 
