@@ -1,5 +1,5 @@
-// Configure for Cloudflare Pages Edge Runtime
-export const runtime = 'edge';
+// Use Node.js runtime (required for Resend SDK)
+export const runtime = 'nodejs';
 
 export async function POST(request) {
   try {
