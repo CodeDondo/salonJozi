@@ -1,7 +1,7 @@
 import { getPortfolioItems } from '@/lib/contentful';
 
-// Configure for Cloudflare Pages Edge Runtime (required)
-export const runtime = 'edge';
+// Use Node.js runtime (required for Contentful SDK)
+export const runtime = 'nodejs';
 
 // Force dynamic rendering - don't pre-render during build
 export const dynamic = 'force-dynamic';
