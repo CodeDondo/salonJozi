@@ -8,7 +8,7 @@ const client = createClient({
 export async function getPortfolioItems() {
   try {
     const entries = await client.getEntries({
-      content_type: 'salonJozi',
+      content_type: 'portfolio',
       order: '-sys.createdAt',
     });
     
@@ -16,10 +16,10 @@ export async function getPortfolioItems() {
   } catch (error) {
     // Check if it's an unknown content type error
     if (error.message?.includes('unknownContentType')) {
-      console.warn('Salon Jozi content type not found in Contentful. Please check the content type ID.')
+      console.warn('Portfolio content type not found in Contentful. Please check the content type ID.')
       return { 
         items: [], 
-        error: 'Content type "salonJozi" blev ikke fundet i Contentful. Tjek venligst at Content Type ID er korrekt.'
+        error: 'Content type "portfolio" blev ikke fundet i Contentful. Tjek venligst at Content Type ID er korrekt.'
       };
     }
     
